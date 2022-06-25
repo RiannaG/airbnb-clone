@@ -1,9 +1,9 @@
-import imgrid from "../assets/img-grid.png";
+import groupimg from "../assets/group.png";
 
 export default function Hero() {
   return (
     <section>
-      <img className="collection-photos" src={imgrid} />
+      <img className="collection-photos" src={groupimg} />
       <div className="hero-text-cont">
         <h1>Online Experiences</h1>
         <p>
