@@ -65,7 +65,20 @@ code {
   gap: 1.5rem;
   overflow-x: scroll;
 }
-
+.card-element {
+  position: relative;
+}
+.card-badge {
+  z-index: 10;
+  position: absolute;
+  background-color: #ffffff;
+  color: rgb(24, 24, 24);
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 3px 8px 3px 8px;
+  font-weight: bold;
+}
 .card-element > img {
   position: relative;
 }
