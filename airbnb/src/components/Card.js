@@ -13,13 +13,13 @@ export default function Card(props) {
   return (
     <div className="card-element">
       {badgeText !== "" && <div className="card-badge">{badgeText}</div>}
-      <img src={`../images/${props.img}`} />
+      <img src={`../images/${props.coverImg}`} />
       <section className="card-info">
         <div>
           <img src={star} />
-          <span>{props.rating}</span>
+          <span>{props.stats.rating}</span>
           <span>
-            ({props.reviewCount}) • {props.location.toUpperCase()}
+            ({props.stats.reviewCount}) • {props.location}
           </span>
         </div>
         <p>{props.title}</p>
