@@ -3,10 +3,7 @@ import star from "../assets/star.png";
 export default function Card(props) {
   return (
     <div className="card-element">
-      <div className="available-tag">
-        <p>SOLD OUT</p>
-      </div>
-      <img src={props.img} />
+      <img src={`../images/${props.img}`} />
       <section className="card-info">
         <div>
           <img src={star} />
